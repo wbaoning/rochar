@@ -1,0 +1,24 @@
+name: "goginProject"
+mode: "dev"
+port: 8081
+startTime: "2021-09-01"
+machineID: 1
+log:
+  lever: "debug"
+  filename: "web.log"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+mysql:
+  host: "119.23.54.252"
+  port: "3306"
+  username: "submit"
+  password: "123456"
+  database: "ginDemo"
+  max_open_conns: 200
+  max_idle_conns: 50
+redis:
+  host: "119.23.54.252"
+  port: "6379"
+  pb: 0
+  poolsize: 200
